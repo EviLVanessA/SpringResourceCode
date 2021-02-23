@@ -44,7 +44,7 @@ Spring的核心接口和类
       ①完成容器的初始化、配置解析
       ②BeanFactoryPostProcessor和BeanPostProcessor的注册和激活
       ③国际化配置
-      ④web容器的构造 ....
+      ④web内置容器的构造 ....
 三、Resource (策略模式)
   根据资源地址自动选择正确的Resource
   ①自动识别"classpath:"、"file:"等资源地址前缀
