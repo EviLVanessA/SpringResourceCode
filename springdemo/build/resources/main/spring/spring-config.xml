@@ -4,5 +4,7 @@
 	   xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	   <bean id="welcomeService" class="com.study.service.impl.WelcomeServiceImpl"/>
+	<bean id="welcomeService" class="com.study.service.impl.WelcomeServiceImpl"/>
+	<bean id="userFactoryBean" class="com.study.entity.factory.UserFactoryBean"/>
+
 </beans>
